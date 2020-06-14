@@ -1,0 +1,113 @@
+.navbar{
+    background-color:  #D32F2F !important;
+}
+.nav-link{
+    color: beige !important;
+    font-weight: bold;
+}
+.fa-user-circle-o{
+    font-size: 24px !important;
+}
+.fa-camera-retro,.fa-headphones,.fa-thumbs-up{
+    font-size: 52px !important;
+    margin-right: 10px;
+    color:  #D32F2F;
+}
+h3{
+    color:  #D32F2F;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 350px;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 3px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+
+
+}
+.mainCard{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 360px) {
+    .card1,.card2,.card3{
+        width: 100px;
+
+    }
+  }
+  .newArivial{
+      margin-top: 20px;
+  }
+  .card{
+    width: 230px;
+    height: auto
+      margin-bottom: 10px;
+  }
+.card-text{
+    font-weight: lighter;
+    font-size: x-small;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color:#D32F2F ;
+    margin: 20px; 
+
+}
+.heading > h2{
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    width: 100%;
+    background-color:#D32F2F ;
+    
+    height: 35px ;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-size: x-small;
+}
+h5{
+
+    font-size: 10pt;
+    text-shadow: 2px 2px 4px orange;
+    
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+    font-size: 20pt;
+    text-shadow: 2px 2px 4px black;
+}
+.gallery-block{padding-bottom: 60px; padding-top: 60px;}
+.gallery-block .heading{margin-bottom: 50px; text-align: center;}
+
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem; text-transform: uppercase;}
+
+.gallery-block.cards-gallery h6{font-size: 12px; font-weight: bold;}
+
+.gallery-block.cards-gallery .card{transition: 0.4s easy;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body{text-align: center;}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+	}
+}
